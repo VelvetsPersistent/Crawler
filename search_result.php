@@ -1,7 +1,14 @@
+<?php 
+
+    include ('constants.php'); 
+    include ('login-check.php'); 
+
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Hubble Web Crawler</title>
+    <title>Hubble WebCrawler</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="css/search-result.css" />
@@ -10,13 +17,18 @@
 </head>
 <body>
     <header>
-        <h1>Hubble Web Crawler</h1>
+        <h1>Hubble WebCrawler</h1>
         <!-- Navigation bar Starts Here -->
         <div class="menu text-center">
-            <a href="index.html">Home</a>
-            <a href="web-crawler.html">Web Crawler</a>
+            <a href="index.php">Home</a>
+            <a href="web-crawler.php">WebCrawler</a>
             <a href="logo.html">Logo</a>
-            <a href="about-us.html">About Us</a>
+            <a href="about-us.php">About Us</a>
+            <div class="wrapper" style="display: inline-block; vertical-align: middle;">
+        <ul>
+          <li><a href="logout.php" class="btn1">Logout</a></li>
+        </ul>
+        </div>
         </div>
     </header>
     <!-- <hr /> -->
@@ -109,7 +121,7 @@
         <div class="container text-center">
             <p>
                 Copyright © 2079-2080
-                <a href="index.html" target="_blank">HWC.LTD</a> All Rights Reserved.
+                <a href="index.php" target="_blank">HWC.LTD</a> All Rights Reserved.
             </p>
         </div>
     </section>

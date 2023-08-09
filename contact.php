@@ -1,0 +1,108 @@
+<?php 
+
+    include ('constants.php'); 
+    include ('login-check.php'); 
+
+
+?>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hubble WebCrawler</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Hubble WebCrawler</h1>
+      <!-- Navigation bar Starts Here -->
+      <div class="menu text-center">
+        <a href="index.php">Home</a>
+        <a href="web-crawler.php">WebCrawler</a>
+        <a href="logo.html">Logo</a>
+        <a href="about-us.php">About Us</a>
+        <div class="wrapper" style="display: inline-block; vertical-align: middle;">
+        <ul>
+          <li><a href="logout.php" class="btn1">Logout</a></li>
+        </ul>
+        </div>
+      </div>
+    </header>
+    <!-- <hr /> -->
+    <div class="boldline"></div>
+    <!-- Welcome Banner Starts Here -->
+    <div class="banner-txt banner">
+      <h2>"Data Empowered || Unleash Insights."</h2>
+      <p>
+        Empower your business with our advanced web crawling solutions for
+        comprehensive data extraction and actionable insights.
+      </p>
+      <div class="banner-btn">
+        <a href="contact.php"><span></span>Find Out</a>
+        <a href="about-us.php"><span></span>Read More</a>
+      </div>
+    </div>
+    <!-- <hr /> -->
+    <div class="bold-line"></div>
+
+    <div class="title-text">
+
+      <h2>CONTACT US</h2>
+      <h3>Email us your Reviews and Suggestions</h3>
+  </div>
+  <div class="footer-row">
+      <div class="footer-left">
+          <h3>Opening Hours of Website</h3>
+          <p><i class="fa fa-clock-o"></i>Monday to Friday - 12pm to 3pm</p>
+          <p><i class="fa fa-clock-o"></i>Saturday to Sunday - 10am to 3pm</p>
+      </div>
+      <div class="footer-right">
+          <h3>Get In Touch</h3>
+          <p>Email: spprojecthwc@gmail.com<i class="fa fa-paper-plane"></i></p>
+          <p>Mobile Number: +9779812345678<i class="fa fa-phone"></i></p>
+          <p>Location: Itahari, Sunsari, Nepal<i class="fa fa-map-marker"></i></p>
+      </div>
+  </div>
+
+
+          </div>
+    <!-- <hr /> -->
+    <div class="bold-line"></div>
+
+    <!-- social Section Starts Here -->
+    <section class="social">
+      <div class="container text-center">
+        <div class="social-links">
+          <a href="https://www.facebook.com/" target="_blank">
+            <i class="fa fa-facebook"></i
+          ></a>
+          <a href="https://www.instagram.com/" target="_blank">
+            <i class="fa fa-instagram"></i
+          ></a>
+          <a href="https://www.twitter.com/" target="_blank">
+            <i class="fa fa-twitter"></i
+          ></a>
+          <a href="https://www.youtube.com/" target="_blank">
+            <i class="fa fa-youtube"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+    <!-- social Section Ends Here -->
+
+    <!-- footer Section Starts Here -->
+    <section class="footer">
+      <div class="container text-center">
+        <p>
+          Copyright © 2079-2080
+          <a href="index.php" target="_blank">HWC.LTD</a> All Rights Reserved.
+        </p>
+      </div>
+    </section>
+    <!-- footer Section Ends Here -->
+  </body>
+</html>
